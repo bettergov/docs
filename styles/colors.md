@@ -1,8 +1,16 @@
+---
+description: How we fill things in.
+---
+
 # Colors
 
-## Getting Super Powers
+### Main palette
 
-Becoming a super hero is a fairly straight forward process:
+These colors are used throughout the main site for headlines, links, navigation elements and body copy.
+
+| Color | Hex | RGB |
+| --- | --- |
+| $bga-blue | \#0D3C73 | rgb\(13,60,115\) |
 
 ```
 $ give me super-powers
