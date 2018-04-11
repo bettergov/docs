@@ -2,8 +2,8 @@
 
 * [BGA web development guide](README.md)
 * Styles
-  * [File structure](styles/untitled.md)
-  * [Fonts](styles/typography.md)
+  * [File structure](styles/file-structure.md)
+  * [Fonts](styles/fonts.md)
   * [Colors](styles/colors.md)
   * Grid
   * [Page components](styles/page-components.md)
@@ -11,5 +11,5 @@
   * [Art components](styles/art-components.md)
   * Theming
 * [Static pages](static-pages.md)
-* [Embeddable graphics](graphics.md)
+* [Embeddable graphics](embeddable-graphics.md)
 
