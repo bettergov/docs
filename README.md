@@ -11,7 +11,7 @@ The ultimate goals here are:
 ## Contents
 
 * **CMS** — General documentation for using, maintaining and developing our Drupal-based CMS at [bettergov.org](https://bettergov.org).
-* [**Styles**](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/README.md)** **— HTML and SCSS components to ensure consistent styles across the organization's independent templates.
+* [**Styles**](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/README.md) ****— HTML and SCSS components to ensure consistent styles across the organization's independent templates.
   * [File structure](styles/file-structure.md)
   * [Fonts](styles/fonts.md)
   * [Colors](styles/colors.md)
@@ -20,7 +20,7 @@ The ultimate goals here are:
   * [Copy components](styles/copy-components.md) — headlines, dropcaps, kickers, etc.
   * [Art components](styles/art-components.md) — photos, document blocks, blurbs, pullquotes, etc.
   * [Theming](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/theming.md)
-* [**Static pages**](static-pages.md)** **— Pages with limited interactivity, typically presenting a long investigation beautifully.
+* [**Static pages**](static-pages.md) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
 * **Dynamic apps**
 * [**Embeddable graphics**](embeddable-graphics.md)
 

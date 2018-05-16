@@ -1,4 +1,10 @@
-# Fonts
+---
+description: >-
+  Publishing and developing our primary content management system (CMS) for
+  bettergov.org, built in Drupal 7.
+---
+
+# CMS
 
 ## Getting Super Powers
 
@@ -19,7 +25,5 @@ Once you're strong enough, save the world:
 echo 'You got to trust me on this, I saved the world'
 ```
 
-## Fonts
 
-[https://typekit.com/colophons/mqd7hhp](https://typekit.com/colophons/mqd7hhp)
 
