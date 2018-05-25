@@ -24,15 +24,17 @@ You can either save your article as a draft \(unpublished\) or schedule it to pu
 
 #### Saving as draft
 
-To save the article as a draft indefinitely, do **not** fill out the publish time. Doing so will schedule the post to publish in the future. Once done editing, simply hit save as draft.
+To save the article as a draft indefinitely, **do not fill out the publish time**. Doing so will schedule the post to publish in the future. Once done editing, simply hit **save as draft**.
 
 #### Publishing
 
-To publish the article now or in the future, set the publish time. Use the calendar picker for the date. The time is 24 hour format \(so 15:00 for 3pm\). Finally hit publish.
+To publish the article now or in the future, set the **published time**. Use the calendar picker for the date. The time is 24 hour format \(so 15:00 for 3pm\). Finally hit **publish**.
+
+Articles with future published times will automatically save as drafts. They will publish at their defined published time.
 
 ## Authoring the body
 
-Below the body textarea, where you can paste and edit text, there is a dropdown menu labled **Text format**. There are two options in the dropdown that we want to focus on: Full HTML and Clean paste.
+At the bottom of the body text editor, there is a dropdown menu labled **Text format**. There are two options in the dropdown that we want to focus on: Full HTML and Clean paste.
 
 When copying from Word, or Google Docs, or emails, etc. we want to strip as much extra formatting and whitespace as possible. We achieve this through the **Clean paste** text format.
 
