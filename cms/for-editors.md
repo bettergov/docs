@@ -8,9 +8,7 @@ description: Editing and publishing on bettergov.org.
 
 1. Log in at [https://www.bettergov.org/user](https://www.bettergov.org/user)
 2. To create an article, click Add Content \(top left of screen\) &gt; Article. Or go the ['Add Article' form](https://www.bettergov.org/node/add/article) directly.
-3. First things first... **Set the published date and time ahead** an hour, or a day, or a year... Drupal does not have a 'save as draft' mode, so to save as a draft, we set the published date ahead. 
-   * Remember that time is 24-hour time. So 3 p.m. is 15:00.
-4. Fill out the following fields at bare minimum:
+3. Fill out the following fields at bare minimum:
    * Title
    * Author\(s\)
    * Article image
@@ -19,6 +17,18 @@ description: Editing and publishing on bettergov.org.
    * Issue\(s\)
    * Teaser \(dek\)
    * Body \(see section 'Authoring the body'\)
+
+## Scheduling an article
+
+You can either save your article as a draft \(unpublished\) or schedule it to publish.
+
+#### Saving as draft
+
+To save the article as a draft indefinitely, do **not** fill out the publish time. Doing so will schedule the post to publish in the future. Once done editing, simply hit save as draft.
+
+#### Publishing
+
+To publish the article now or in the future, set the publish time. Use the calendar picker for the date. The time is 24 hour format \(so 15:00 for 3pm\). Finally hit publish.
 
 ## Authoring the body
 
