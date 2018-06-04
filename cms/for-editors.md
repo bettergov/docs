@@ -16,7 +16,8 @@ description: Editing and publishing on bettergov.org.
    * Type
    * Issue\(s\)
    * Teaser \(dek\)
-   * Body \(see section [Authoring the body](for-editors.md#authoring-the-body)\)
+   * Body \(see [Authoring the body](for-editors.md#authoring-the-body)\)
+4. Save the article as a draft or schedule it for publishing \(see [Scheduling an article](for-editors.md#scheduling-an-article)\)
 
 ## Scheduling an article
 
