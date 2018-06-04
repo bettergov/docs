@@ -49,5 +49,25 @@ Using it is simple:
 Sometimes the clean paste task doesn't strip all of the whitespace the first iteration. To fix, simply repeat the clean paste process with the once-cleaned text.
 {% endhint %}
 
+## Social media parameters
 
+Keep these in mind when penning heds and decks.
+
+#### Twitter
+
+| twitter:site | @bettergov |
+| --- | --- | --- | --- | --- | --- |
+| _twitter:creator_ | _@username of author_ |
+| twitter:description | max 200 characters, desktop only |
+| twitter:title | max 70 characters |
+| twitter:image | max 5MB |
+| _twitter:image:alt_ | _alt text description of image \(max 420 characters\)_ |
+
+#### Facebook \(OpenGraph\)
+
+| og:image | Facebook recommends at least 1200 x 630 pixels |
+| --- | --- | --- | --- |
+| og:title | long max -- 120 characters? |
+| og:description | max 300\(?\) characters, desktop only |
+| _og:author_ | _FB follow profile of author_ |
 
