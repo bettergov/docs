@@ -6,24 +6,17 @@ description: >-
 
 # CMS
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-
+* [For editors](for-editors.md)
+  * [Adding an article](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#adding-an-article)
+  * [Scheduling an article](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#scheduling-an-article)
+  * [Authoring the body](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#authoring-the-body)
+  * [Subheads](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#subheads)
+  * [Adding media](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#adding-media)
+  * [Promoting stories to the front page](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#promoting-stories-to-the-front-page)
+  * [Social media parameters](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#social-media-parameters)
+  * [Extra fields](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#extra-fields)
+  * [PolitiFact](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#politifact)
+* [For developers](for-developers.md)
+  * [Hosting](for-developers.md#hosting)
+  * [Developing locally](for-developers.md#developing-locally)
 
