@@ -139,7 +139,80 @@ Keep these in mind when penning heds and decks.
 | Meta tags | One of the bottom tabs. How the page renders on social media. These pull from the article by default, but you can also manually set them. You'll want to reference the tag documentation \([Facebook](https://developers.facebook.com/docs/sharing/webmasters) \| [Twitter](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)\) and the debugger once published \([Facebook](https://developers.facebook.com/tools/debug/) \| [Twitter](https://cards-dev.twitter.com/validator)\). |
 | CSS & JavaScript | One of the bottom tabs. Don't touch this unless you know what you're doing! Sometimes there's a need to add CSS or JS for a single article. You can add those via this field. These cache, so you'll need to clear the cache to see the latest CSS or JS applied to the article. |
 
-## PolitiFact
+## PolitiFact articles
 
-TK TK
+We have to post PolitiFact articles in two places: [Our site](for-editors.md#our-site) and [PolitiFact](for-editors.md#politifact)'s.
+
+#### Our site
+
+Follow all the typical steps of [Adding an article](for-editors.md#adding-an-article). **Make sure you set the type to PolitiFact**.
+
+After that, there's just one additional set of fields to fill out. You can open them this way by clicking on the gray bar that starts "Fact check":
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+You'll see a set of fields for fact-checks only. These mirror fields on PolitiFact's site:
+
+| Fact check type | Statement or Story. Statements check a single statement and have a ruling. Stories are a bit more nebulous and don't have final rulings. |
+| --- | --- | --- | --- | --- | --- | --- |
+| Quote | The statement being fact-checked. These should be surrounded with quotes where applicable. |
+| Person | Who said it. Use titles if relevant \(e.g. Gov. Bruce Rauner\) |
+| Context | Where the speaker said it \(e.g. On Twitter\) |
+| Date | When the speaker said it. |
+| Ruling | True, Mostly True,  Pants on Fire, etc. |
+| Sources | Every PolitiFact article should have sources. Use the same process to paste the sources in as you do in [Authoring the body](for-editors.md#authoring-the-body). |
+
+#### PolitiFact
+
+Leave the BGA article editor open when adding the article to PolitiFact — it will be easier to paste text into PolitiFact that's already formatted.
+
+You can access Politifact's CMS from [this link](http://cms.politifact.com/admin/). It's built in Django.
+
+The majority of fact-checks are going to be statements. You can browse and statements from [this link](http://cms.politifact.com/admin/statements/statement/).
+
+On the add statement screen, the mandatory fields will be bolded. The rest are optional. We typically fill out the following, from top to bottom. It seems like a lot, but most of this is just stuff we already filled out on our own site:
+
+* Edition \(Illinois\)
+* Author
+* Researcher
+* Editor
+* Speaker
+* Subject
+* Statement
+* Statement type \(usually claim\)
+* Statement date
+* Statement context
+* Art \(the lead art for the article\)
+* More Headline Art \(the lead art for the homepage carousel — must be a photo\)
+* Ruling
+* Ruling headline \(sentence case\)
+* Ruling comments \(the article body\)
+* Ruling date \(the publish time in ET\)
+* Ruling link text \(appears below the truth-o-meter for the ruling on the homepage\)
+* Facebook headline & Twitter headline \(60 character limit\)
+* Sources
+
+A few other quirks of PolitiFact's setup:
+
+* **Uploading art:** You can browse and add art via the [resources page](http://cms.politifact.com/admin/art/resource/). Typically we'll be adding a photo, a video or an iframe.
+  * **Photo:** Select resource type photo, add title and caption, upload the photo \(max size: .5 MB\)
+  * **YouTube video:** Select resource type YouTube, add title and caption, add YouTube ID`https://www.youtube.com/watch?v=[YOUTUBE ID]`
+  * **Iframe:** Select resource type Infogram / Share the Facts, add title and caption, paste the iframe code into Infogram / Share the Facts.
+* **Adding art to the story:** To add art to the body of the story, select it in the field like Figure 1 Art Embed. In the body of the story, switch to source view and paste the embed in the story:
+
+```markup
+<p>Some text...</p>
+<div class='artembed'>See Figure 1 on PolitiFact.com</div>
+<p>Some other text...</p>
+```
+
+* **Adding speakers:** If fact-checking someone who hasn't been fact-checked before, you'll need to add the person to the PolitiFact CMS. You can view person at [this link](http://cms.politifact.com/admin/people/person/). The set-up is self-explanatory here, just note these couple of things:
+  * It makes you select a political party. If you don't want to, select 'None.' Selecting 'None' means a political party won't show up for that speaker.
+  * **Always add a photo.** The photo should be tightly cropped to the person's face, 80x80. You can [crop pictures in Preview](http://osxdaily.com/2014/06/16/crop-image-mac-preview/). Hold shift down while making your selection and the selection will be a square.
+
+#### Share the Facts
+
+PolitiFact asks that we also upload published statements to a service called [Share the Facts](http://politifact.sharethefacts.co/login). We can only do this after the statement is already published.
+
+Once you've filled out the fields, copy the final iframe code, upload it as a resource and embed it at the bottom of the PolitiFact statement. 
 
