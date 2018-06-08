@@ -63,6 +63,24 @@ lando pull --database=none
 lando pull --database=none --rsync
 ```
 
+### Pushing local changes
+
+We use`lando push`to push up any changes to code, database and files made locally.
+
+Lando only pushes up code by default.
+
+```bash
+# Push the local code
+# This will push to the environment associated with your currently checked out git branch
+lando push
+
+# Push only the database and code
+lando push --files=none
+
+ # Push only the files and code
+ lando push --database=none 
+```
+
 ### Shutting down lando
 
 ```bash
