@@ -1,25 +1,35 @@
 # Fonts
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-## Fonts
+#### Browse fonts
 
 [https://typekit.com/colophons/mqd7hhp](https://typekit.com/colophons/mqd7hhp)
+
+#### Include in html head
+
+```markup
+<link rel="stylesheet" href="https://use.typekit.net/mqd7hhp.css">
+```
+
+#### Import in css
+
+```markup
+<style>
+  @import url("https://use.typekit.net/mqd7hhp.css");
+</style>
+```
+
+#### Load in javascript
+
+```markup
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'mqd7hhp',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+```
 
