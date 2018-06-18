@@ -14,9 +14,7 @@ The most beneficial advantages of Pantheon involve versioning and workflows, inc
 
 To get the lay of the Pantheon land, I recommend reading through their [Quick Start guide](https://pantheon.io/docs/guides/quickstart/). Here's their [full documentation](https://pantheon.io/docs/).
 
-{% hint style="info" %}
-We also keep a version of our website on GitHub. TK TK TK
-{% endhint %}
+We also keep a version of our website on GitHub at [git@github.com:bettergov/bettergov.org.git](https://github.com/bettergov/bettergov.org). Be sure to follow the steps in [Syncing with GitHub](for-developers.md#syncing-with-github) to keep this version in sync with Pantheon.
 
 ## Developing locally
 
@@ -93,4 +91,20 @@ docker container rm $(docker container ls -a -q)
 # Remove all Docker images
 docker image rm $(docker image ls -a -q)
 ```
+
+## Syncing with GitHub
+
+We also keep a version of our website on GitHub at [git@github.com:bettergov/bettergov.org.git](https://github.com/bettergov/bettergov.org).
+
+The simplest way to keep this version in sync with Pantheon is to edit`.git/config`and add GitHub to the origin branch.
+
+```text
+[remote "origin"]
+    url = ssh://codeserver.dev.<SITE_UUID>@codeserver.dev.<SITE_UUID>.drush.in:2222/~/repository.git
+    url = git@github.com:bettergov/bettergov.org.git
+```
+
+{% hint style="info" %}
+Pantheon has a whole page of documentation on using GitHub's collaborative development tools with Pantheon. Feel free to [read through their docs](https://pantheon.io/docs/guides/collaborative-development/).
+{% endhint %}
 
