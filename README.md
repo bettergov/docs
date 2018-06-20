@@ -1,6 +1,6 @@
 # BGA web development guide
 
-The goal of this style guide is to pack as many front-end decisions and components into a single reference. It is a living document, inspired by style guides developed and shared by the [Texas Tribune](http://cookbook.latimes.com/), the [LA Times](http://cookbook.latimes.com/) and [POLITICO](https://politico.gitbooks.io/politico-newsroom-developer-guide/).
+The goal of this style guide is to pack as many front-end decisions and components into a single reference. It is a living document, inspired by style guides developed and shared by the [Texas Tribune](https://apps.texastribune.org/styles/), the [LA Times](http://cookbook.latimes.com/) and [POLITICO](https://politico.gitbooks.io/politico-newsroom-developer-guide/).
 
 The ultimate goals here are:
 
