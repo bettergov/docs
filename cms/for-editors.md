@@ -111,7 +111,7 @@ Keep these in mind when penning heds and decks.
 #### Twitter
 
 | twitter:site | @bettergov |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | _twitter:creator_ | _@username of author_ |
 | twitter:description | max 200 characters, desktop only |
 | twitter:title | max 70 characters |
@@ -121,7 +121,7 @@ Keep these in mind when penning heds and decks.
 #### Facebook \(OpenGraph\)
 
 | og:image | Facebook recommends at least 1200 x 630 pixels |
-| --- | --- | --- | --- |
+| :--- | :--- |
 | og:title | long max -- 120 characters? |
 | og:description | max 300\(?\) characters, desktop only |
 | _og:author_ | _FB follow profile of author_ |
@@ -129,7 +129,7 @@ Keep these in mind when penning heds and decks.
 ## Extra fields
 
 | Updated | Datetime field. Fill this out if you're updating an already-published article. Also include a description of your changes in the Updates field. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Series | You can group stories by series \(e.g. [Taking Cover](https://www.bettergov.org/series/taking-cover)\). Begin typing the series and select it from the list, or add a series at [this link](https://www.bettergov.org/admin/structure/taxonomy/series) if it doesn't already exist. |
 | Publishing partner | If publishing with a partner organization, fill this out to help keep track of our partnerships. Example: "This story was co-published with the [Chicago Sun-Times](https://chicago.suntimes.com/news/illinois-epa-plan-for-109-million-haul-volkswagen-emissions-scandal-fire-rauner-environment/)." |
 | Documentcloud file ID | Adds a DocumentCloud embedded PDF at the bottom of the story \(like in [this article](https://www.bettergov.org/news/illinois%E2%80%99-plan-for-109-million-haul-from-volkswagen-emissions-scandal-draws-fire)\). Open the document in DocumentCloud and copy the piece of the URL after the last slash but before .html. For example, the ID for [this document](https://www.documentcloud.org/documents/4465390-Letter-of-Support-HB-4637.html) is 4465390-Letter-of-Support-HB-4637. |
@@ -154,7 +154,7 @@ After that, there's just one additional set of fields to fill out. You can open 
 You'll see a set of fields for fact-checks only. These mirror fields on PolitiFact's site:
 
 | Fact check type | Statement or Story. Statements check a single statement and have a ruling. Stories are a bit more nebulous and don't have final rulings. |
-| --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Quote | The statement being fact-checked. These should be surrounded with quotes where applicable. |
 | Person | Who said it. Use titles if relevant \(e.g. Gov. Bruce Rauner\) |
 | Context | Where the speaker said it \(e.g. On Twitter\) |

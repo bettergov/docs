@@ -18,7 +18,7 @@ iframe {
 ## General style
 
 | Fonts | 15px/1.2 proxima-nova, helvetica, arial, sans-serif \#000 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Hed | bold 18px |
 | Deck | regular 15px |
 | Notes, credit, source | regular 12px |

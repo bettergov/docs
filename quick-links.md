@@ -3,7 +3,7 @@
 ### Content management
 
 | **Service** | **URL** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | DocumentCloud | [https://www.documentcloud.org](https://www.documentcloud.org) |
 | Drupal admin \(bettergov.org\) | [https://www.bettergov.org/user](https://www.bettergov.org/user) |
 | Google Analytics | [https://analytics.google.com](https://analytics.google.com) |
@@ -16,7 +16,7 @@
 ### Other development work
 
 | **Service** | **URL** |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Amazon Web Services | [https://console.aws.amazon.com/](https://console.aws.amazon.com/) |
 | GitHub | [https://github.com/bettergov](https://github.com/bettergov) |
 | New Relic | [https://rpm.newrelic.com/](https://rpm.newrelic.com/) |

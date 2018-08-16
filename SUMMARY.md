@@ -16,4 +16,5 @@
   * [Theming](styles/theming.md)
 * [Static pages](static-pages.md)
 * [Embeddable graphics](embeddable-graphics.md)
+* [Deploying Django apps](deploying-django-apps.md)
 
