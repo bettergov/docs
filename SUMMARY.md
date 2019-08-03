@@ -6,6 +6,7 @@
 * [Product list](products.md)
 * [CMS](cms/README.md)
   * [For editors](cms/for-editors.md)
+  * [For administrators](cms/for-administrators.md)
   * [For developers](cms/for-developers.md)
 * [Styles](styles/README.md)
   * [File structure](styles/file-structure.md)

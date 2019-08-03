@@ -4,20 +4,23 @@ description: Editing and publishing on bettergov.org.
 
 # For editors
 
+## Logging in
+
+Go to [https://www.bettergov.org/user](https://www.bettergov.org/user)
+
 ## Adding an article
 
-1. Log in at [https://www.bettergov.org/user](https://www.bettergov.org/user)
-2. To create an article, click Add Content \(top left of screen\) &gt; Article. Or go the ['Add Article' form](https://www.bettergov.org/node/add/article) directly.
-3. Fill out the following fields at bare minimum:
+1. To create an article, click Add Content \(top left of screen\) &gt; Article. Or go the ['Add Article' form](https://www.bettergov.org/node/add/article) directly.
+2. Fill out the following fields at bare minimum:
    * Title
    * Author\(s\)
-   * Article image
-   * Lead image caption
    * Type
-   * Issue\(s\)
-   * Teaser \(dek\)
+   * Article image \(editorial\)
+   * Article image \(SEO\)
+   * Lead image caption
+   * Teaser \(deck\)
    * Body \(see [Authoring the body](for-editors.md#authoring-the-body)\)
-4. Save the article as a draft or schedule it for publishing \(see [Scheduling an article](for-editors.md#scheduling-an-article)\)
+3. Save the article as a draft or schedule it for publishing \(see [Scheduling an article](for-editors.md#scheduling-an-article)\)
 
 ## Scheduling an article
 
@@ -27,19 +30,21 @@ You can either save your article as a draft \(unpublished\) or schedule it to pu
 
 To save the article as a draft indefinitely, **do not fill out the publish time**. Doing so will schedule the post to publish in the future. Once done editing, simply hit **save as draft**.
 
+![](../.gitbook/assets/screenshot-save-as-draft.png)
+
 #### Publishing
 
 To publish the article now or in the future, set the **published time**. Use the calendar picker for the date. The time is 24 hour format \(so 15:00 for 3pm\). Finally hit **publish**.
 
 Articles with published times in the future will automatically save as drafts. They will publish at their defined published time.
 
-Articles with published times in the past will automatically publish, regardless of if you hit "save as draft." Just don't schedule posts for the past — it's dishonest.
+Articles with published times in the past will automatically publish, regardless of if you hit "save as draft."
 
 ## Authoring the body
 
-At the bottom of the body text editor, there is a dropdown menu labled **Text format**. There are two options in the dropdown that we want to focus on: Full HTML and Clean paste.
+At the bottom of the body text editor, there is a dropdown menu labeled **Text format**. There are two options in the dropdown that we want to focus on: Full HTML and Clean paste.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/screenshot-text-format.png)
 
 When copying from Word, or Google Docs, or emails, etc. we want to strip as much extra formatting and whitespace as possible. We achieve this through the **Clean paste** text format.
 
@@ -50,17 +55,21 @@ Using it is simple:
 3. You should get an alert in your browser that says: "Cleaned on paste."
 4. That's it! You can switch the dropdown back to **Full HTML** to finish editing the article.
 
+_**TODO: add subtitled video here**_
+
 {% hint style="info" %}
 Sometimes the clean paste task doesn't strip all of the whitespace the first iteration. To fix, simply repeat the clean paste process with the once-cleaned text.
 {% endhint %}
 
-## Subheads
+## Adding subheds
 
-We use Heading 3 for subheds. To convert a line to a subhead:
+![](../.gitbook/assets/screencap-subhed.gif)
+
+To convert a line to a subhead:
 
 1. Highlight the text
 2. Click the Formatting Styles dropdown in the editor tool pane. It will probably say Paragraph, with a down caret next to it.
-3. Select the third heading label. It's the smallest blue one.
+3. Select the label marked 'Subhed'.
 
 Subheads are written in sentence case, e.g. Our ruling.
 
@@ -94,15 +103,33 @@ If you'd like, you can manually wrap it in a `<figure>`tag. By doing this, you c
 </figure>
 ```
 
-## Promoting stories to the front page
+## Promoting as lead story
 
-We schedule the lead newsroom story on the front page by checking a box that says "Promoted to front page." This is a bit of a misnomer — new articles will show up on the front page, regardless of whether or not we've chosen to promote it. Once you've resolved yourself to the poor choice of phrasing, execute the following steps:
+{% hint style="info" %}
+Note to administrators/developers: See Drupal view [Homepage: Big lead story](https://www.bettergov.org/admin/structure/views/view/homepage_top_story/edit/) for implementation details.
+{% endhint %}
 
-1. Make sure that the selected article type falls under the Newsroom parent — Investigation, Follow-up, Explainer or PolitiFact.
+We schedule the lead newsroom story on the front page by checking a box that says "Promoted to front page." This is a misnomer — new articles will show up on the front page, regardless of whether or not we've chosen to promote it. But they won't show up in that main image box.
+
+1. Make sure that the selected article type falls under the Newsroom parent.
 2. Scroll to the very bottom and click on the promotion settings tab.
 3. Check "Promoted to front page."
 4. If the post is scheduled to publish in the future, it will slide into that lead story slot as soon as it publishes.
 5. Once the post is published, manually untick "Promoted to front page" from whatever story was there previously. [Here's a list](https://www.bettergov.org/promoted-to-front-page) of all stories that are promoted and published. There should always be just one.
+
+![](../.gitbook/assets/screenshot-promoted.png)
+
+![](../.gitbook/assets/screenshot-promoted-admin.png)
+
+## TODO: Sharing a preview
+
+i.e. hashed link
+
+## TODO: Making an article republishable
+
+## TODO: Adding an external article
+
+e.g. projects.bettergov.org/...
 
 ## Social media parameters
 
@@ -110,8 +137,9 @@ Keep these in mind when penning heds and decks.
 
 #### Twitter
 
-| twitter:site | @bettergov |
+|  |  |
 | :--- | :--- |
+| twitter:site | @bettergov |
 | _twitter:creator_ | _@username of author_ |
 | twitter:description | max 200 characters, desktop only |
 | twitter:title | max 70 characters |
@@ -120,24 +148,25 @@ Keep these in mind when penning heds and decks.
 
 #### Facebook \(OpenGraph\)
 
-| og:image | Facebook recommends at least 1200 x 630 pixels |
+|  |  |
 | :--- | :--- |
+| og:image | Facebook recommends at least 1200 x 630 pixels |
 | og:title | long max -- 120 characters? |
 | og:description | max 300\(?\) characters, desktop only |
 | _og:author_ | _FB follow profile of author_ |
 
 ## Extra fields
 
-| Updated | Datetime field. Fill this out if you're updating an already-published article. Also include a description of your changes in the Updates field. |
+|  |  |
 | :--- | :--- |
+| Updated | Datetime field. Fill this out if you're updating an already-published article. Also include a description of your changes in the Updates field. |
 | Series | You can group stories by series \(e.g. [Taking Cover](https://www.bettergov.org/series/taking-cover)\). Begin typing the series and select it from the list, or add a series at [this link](https://www.bettergov.org/admin/structure/taxonomy/series) if it doesn't already exist. |
-| Publishing partner | If publishing with a partner organization, fill this out to help keep track of our partnerships. Example: "This story was co-published with the [Chicago Sun-Times](https://chicago.suntimes.com/news/illinois-epa-plan-for-109-million-haul-volkswagen-emissions-scandal-fire-rauner-environment/)." |
-| Documentcloud file ID | Adds a DocumentCloud embedded PDF at the bottom of the story \(like in [this article](https://www.bettergov.org/news/illinois%E2%80%99-plan-for-109-million-haul-from-volkswagen-emissions-scandal-draws-fire)\). Open the document in DocumentCloud and copy the piece of the URL after the last slash but before .html. For example, the ID for [this document](https://www.documentcloud.org/documents/4465390-Letter-of-Support-HB-4637.html) is 4465390-Letter-of-Support-HB-4637. |
-| Custom URL | For linking to external projects. Paste the full url into this field, and any teasers will take the user to that url instead of the node. |
-| Updates | See Updated. |
-| Notes | Use this field to add contributing credits, for example. |
-| Meta tags | One of the bottom tabs. How the page renders on social media. These pull from the article by default, but you can also manually set them. You'll want to reference the tag documentation \([Facebook](https://developers.facebook.com/docs/sharing/webmasters) \| [Twitter](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)\) and the debugger once published \([Facebook](https://developers.facebook.com/tools/debug/) \| [Twitter](https://cards-dev.twitter.com/validator)\). |
-| CSS & JavaScript | One of the bottom tabs. Don't touch this unless you know what you're doing! Sometimes there's a need to add CSS or JS for a single article. You can add those via this field. These cache, so you'll need to clear the cache to see the latest CSS or JS applied to the article. |
+| Additional fields &gt; Publishing partner | If publishing with a partner organization, fill this out to help keep track of our partnerships. Example: "This story was co-published with the [Chicago Sun-Times](https://chicago.suntimes.com/news/illinois-epa-plan-for-109-million-haul-volkswagen-emissions-scandal-fire-rauner-environment/)." |
+| Additional fields &gt; Documentcloud file ID | Adds a DocumentCloud embedded PDF at the bottom of the story \(like in [this article](https://www.bettergov.org/news/illinois%E2%80%99-plan-for-109-million-haul-from-volkswagen-emissions-scandal-draws-fire)\). Open the document in DocumentCloud and copy the piece of the URL after the last slash but before .html. For example, the ID for [this document](https://www.documentcloud.org/documents/4465390-Letter-of-Support-HB-4637.html) is 4465390-Letter-of-Support-HB-4637. |
+| Additional fields &gt; Updates | Fill this out if you're updating an already-published article. This should be a description of your changes. |
+| Additional fields &gt; Notes | Use this field to add contributing credits, for example. |
+| Meta tags | One of the bottom tabs. These pull from the article by default, but you can also manually set them. You'll want to reference the tag documentation \([Facebook](https://developers.facebook.com/docs/sharing/webmasters) \| [Twitter](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)\) and the debugger once published \([Facebook](https://developers.facebook.com/tools/debug/) \| [Twitter](https://cards-dev.twitter.com/validator)\). |
+| CSS & JavaScript | One of the bottom tabs. Don't touch this unless you know what you're doing! Sometimes there's a need to add CSS or JS for a single article. You can add those via this field. |
 
 ## PolitiFact articles
 

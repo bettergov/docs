@@ -16,7 +16,9 @@ To get the lay of the Pantheon land, I recommend reading through their [Quick St
 
 We also keep a version of our website on GitHub at [git@github.com:bettergov/bettergov.org.git](https://github.com/bettergov/bettergov.org). Be sure to follow the steps in [Syncing with GitHub](for-developers.md#syncing-with-github) to keep this version in sync with Pantheon.
 
-## Developing locally
+## TODO: Developing locally with SFTP mode + VSCode
+
+## Developing locally with Lando
 
 Lando lets us easily spin up a local development environment. They have a configuration specifically for syncing with Pantheon.
 
@@ -107,4 +109,14 @@ The simplest way to keep this version in sync with Pantheon is to edit`.git/conf
 {% hint style="info" %}
 Pantheon has a whole page of documentation on using GitHub's collaborative development tools with Pantheon. Feel free to [read through their docs](https://pantheon.io/docs/guides/collaborative-development/).
 {% endhint %}
+
+## TODO: Site structure
+
+Panels, Views, etc.
+
+## TODO: Site maintenance
+
+
+
+
 

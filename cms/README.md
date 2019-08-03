@@ -7,16 +7,31 @@ description: >-
 # CMS
 
 * [For editors](for-editors.md)
-  * [Adding an article](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#adding-an-article)
-  * [Scheduling an article](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#scheduling-an-article)
-  * [Authoring the body](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#authoring-the-body)
-  * [Subheads](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#subheads)
-  * [Adding media](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#adding-media)
-  * [Promoting stories to the front page](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#promoting-stories-to-the-front-page)
-  * [Social media parameters](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#social-media-parameters)
-  * [Extra fields](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#extra-fields)
-  * [PolitiFact](https://bga.gitbook.io/bga-developer-guide/~/edit/primary/cms/for-editors#politifact)
+  * [Logging in](for-editors.md#logging-in)
+  * [Adding an article](for-editors.md#adding-an-article)
+  * [Scheduling an article](for-editors.md#scheduling-an-article)
+  * [Authoring the body](for-editors.md#authoring-the-body)
+  * [Adding subheds](for-editors.md#adding-subheds)
+  * [Adding media](for-editors.md#adding-media)
+  * [Promoting stories to the front page](for-editors.md#promoting-as-lead-story)
+  * TODO: Sharing a preview
+  * TODO: Making an article republishable
+  * TODO: Adding an external article
+  * [Social media parameters](for-editors.md#social-media-parameters)
+  * [Extra fields](for-editors.md#extra-fields)
+  * [PolitiFact articles](for-editors.md#politifact-articles)
+* For administrators
+  * TODO: Editing the homepage
+  * TODO: Adding a team member
+  * TODO: Removing a team member
+  * TODO: Adding a job listing
+  * TODO: Adding and removing users
 * [For developers](for-developers.md)
   * [Hosting](for-developers.md#hosting)
-  * [Developing locally](for-developers.md#developing-locally)
+  * TODO: Developing locally with SFTP + VSCode
+  * [Developing locally with Lando](for-developers.md#developing-locally-with-lando)
+  * [Syncing with GitHub](for-developers.md#syncing-with-github)
+  * TODO: Drupal site structure
+  * TODO: Cron
+  * TODO: Google Analytics / Google Tag Manager
 
