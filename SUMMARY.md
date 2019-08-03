@@ -2,6 +2,7 @@
 
 * [BGA web development guide](README.md)
 * [Quick links](quick-links.md)
+* [Product list](products.md)
 * [CMS](cms/README.md)
   * [For editors](cms/for-editors.md)
   * [For developers](cms/for-developers.md)
@@ -14,7 +15,7 @@
   * [Copy components](styles/copy-components.md)
   * [Art components](styles/art-components.md)
   * [Theming](styles/theming.md)
-* [Static pages](static-pages.md)
+* [Project pages](project-pages.md)
 * [Embeddable graphics](embeddable-graphics.md)
 * [Deploying Django apps](deploying-django-apps.md)
 

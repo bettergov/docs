@@ -10,6 +10,7 @@ The ultimate goals here are:
 
 ## Contents
 
+* **Product list** — Listing BGA's deployed sites and tools.
 * **CMS** — General documentation for using, maintaining and developing our Drupal-based CMS at [bettergov.org](https://bettergov.org).
   * [For editors](cms/for-editors.md)
   * [For developers](cms/for-developers.md)
@@ -22,7 +23,7 @@ The ultimate goals here are:
   * [Copy components](styles/copy-components.md) — headlines, dropcaps, kickers, etc.
   * [Art components](styles/art-components.md) — photos, document blocks, blurbs, pullquotes, etc.
   * [Theming](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/theming.md)
-* [**Static pages**](static-pages.md) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
+* [**Static pages**](project-pages.md) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
 * **Dynamic apps**
 * [**Embeddable graphics**](embeddable-graphics.md)
 
