@@ -17,7 +17,11 @@
   * [Copy components](styles/copy-components.md)
   * [Art components](styles/art-components.md)
   * [Theming](styles/theming.md)
-* [Project pages](project-pages.md)
+* [Project pages](project-pages/README.md)
+  * [Publishing our code](project-pages/publishing-our-code.md)
 * [Embeddable graphics](embeddable-graphics.md)
-* [Deploying Django apps](deploying-django-apps.md)
+
+## Tip sheets
+
+* [Deploying Django apps](tip-sheets/deploying-django-apps.md)
 

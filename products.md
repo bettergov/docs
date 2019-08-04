@@ -39,7 +39,7 @@ See CMS &gt; For developers for full build and deployment details.
 
 See Project pages for how to build and deploy to these buckets.
 
-{% page-ref page="project-pages.md" %}
+{% page-ref page="project-pages/" %}
 
 Other deployment notes...
 

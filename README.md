@@ -25,7 +25,6 @@ The ultimate goals here are:
   * [Copy components](styles/copy-components.md) — headlines, dropcaps, kickers, etc.
   * [Art components](styles/art-components.md) — photos, document blocks, blurbs, pullquotes, etc.
   * [Theming](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/theming.md)
-* [**Static pages**](project-pages.md) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
-* **Dynamic apps**
+* [**Project pages**](project-pages/) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
 * [**Embeddable graphics**](embeddable-graphics.md)
 
