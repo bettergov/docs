@@ -53,7 +53,7 @@ stage-projects.bettergov.org is password-protected via [s3auth.com](http://www.s
 >
 > For example, try http://maven.s3auth.com/ \(with username s3auth and password s3auth\). You will access content of Amazon S3 bucket maven.s3auth.com, which is not readable anonymously otherwise.
 
-_**TODO: Move config over to bgaadmin GitHub account**_
+Configuration for s3auth.com is managed through the bga-admin GitHub account.
 
 ## Miscellaneous assets
 
@@ -84,7 +84,7 @@ Development and hosting of these are managed by [DataMade](https://datamade.us/)
 
 ### votersguide.bettergov.org
 
-Built for the 2018 primary election. Should redirect to an S3 subdirectory.
+Built for the 2018 primary election. Was a Django app, now it's just a Cloudfront endpoint and an S3 subdirectory.
 
 ### ilvotes.org
 
