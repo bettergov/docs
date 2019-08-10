@@ -26,5 +26,5 @@ The ultimate goals here are:
   * [Art components](styles/art-components.md) — photos, document blocks, blurbs, pullquotes, etc.
   * [Theming](https://github.com/bettergov/dev-guide/tree/4265ea09dddd7852fd2565ad1d6bfbba13f398e4/styles/theming.md)
 * [**Project pages**](project-pages/) ****— Pages with limited interactivity, typically presenting a long investigation beautifully.
-* [**Embeddable graphics**](embeddable-graphics.md)
+* [**Embeddable graphics**](embeddable-graphics.md) ****— D3-driven graphics, made responsive and embeddable using pym.js.‌
 

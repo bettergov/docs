@@ -1,4 +1,32 @@
+---
+description: 'D3-driven graphics, made responsive and embeddable using pym.js.'
+---
+
 # Embeddable graphics
+
+## Building graphics
+
+I've built and deployed most of our graphics using the NPR Daily Graphics rig — in its original form,[`nprapps/dailygraphics`](https://github.com/nprapps/dailygraphics), and now its latest incarnation, [`nprapps/dailygraphics-next`](https://github.com/nprapps/dailygraphics-next) \(dg-next\). The setup combines Google Sheets data management, D3 graphics templates and S3 deployment into a single workflow to easily create graphics that are embedded into stories.
+
+Running dg-next requires a few repositories — a rig repo, a template repo, and your graphics repo — as well as some configuration for fetching data from Google Sheets and deploying to AWS S3.
+
+### Getting started
+
+To simplify getting started, I've packed all of the setup for dg-next into a single repository: [`bettergov/workspace-dailygraphics-next`](https://github.com/bettergov/workspace-dailygraphics-next).
+
+Assuming you have Yarn and iTerm on your machine, getting your dg-next rig started from scratch is really trivial:
+
+```bash
+git clone https://github.com/bettergov/workspace-dailygraphics-next.git dgnext
+cd dgnext
+# [] manually check config.json
+# [] manually check .gitmodules
+yarn install
+# [] manually fill out .env with google and aws credentials
+yarn start:iterm
+```
+
+For more detailed explanation, see the [workspace-dailygraphics-next](https://github.com/bettergov/workspace-dailygraphics-next) repo.
 
 ## Embedding graphics
 
@@ -15,31 +43,5 @@ iframe {
 ```
 {% endhint %}
 
-## General style
 
-| Fonts | 15px/1.2 proxima-nova, helvetica, arial, sans-serif \#000 |
-| :--- | :--- |
-| Hed | bold 18px |
-| Deck | regular 15px |
-| Notes, credit, source | regular 12px |
-| Direct labels | 15px \#000 |
-| Graphic meta labels \(e.g. axis\) | 15px \#666 |
-| BG grid lines | 1pt \#ddd |
-| Outer grid lines \(e.g. axis\) | 1pt \#333 |
-| Gray background \(optional\) | \#fafafa |
-
-### Structure
-
-1. Before &lt;div class="bga-g-before"&gt;
-   1. Hed
-   2. Deck
-2. Main &lt;div class="bga-g-main"&gt;
-3. After &lt;div class="bga-g-after"&gt;
-   1. Notes
-   2. Credit
-   3. Source
-
-Between divs: 10px spacing \(bottom margin\)
-
-Spot graphics: 250 wide
 

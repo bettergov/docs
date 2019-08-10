@@ -23,5 +23,6 @@
 
 ## Tip sheets
 
+* [Setting up your Mac](tip-sheets/setting-up-your-mac.md)
 * [Deploying Django apps](tip-sheets/deploying-django-apps.md)
 
