@@ -93,7 +93,7 @@ git config --global user.email "$YOUR_EMAIL@bettergov.org"
 git config --global user.name "$YOUR_NAME"
 ```
 
-Finally, you should be added as a member of the [@bettergov](https://github.com/bettergov/) organization. From the bga-admin account \(digital@bettergov.org\), invite your account as a member.
+Finally, you should join the [@bettergov](https://github.com/bettergov/) organization. From the bga-admin account \(digital@bettergov.org\), invite your account as an owner.
 
 ## Python
 
