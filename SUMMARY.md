@@ -17,4 +17,6 @@
 
 * [Setting up your Mac](tip-sheets/setting-up-your-mac.md)
 * [Deploying Django apps](tip-sheets/deploying-django-apps.md)
+* [Dockerized Drupal development with Lando](tip-sheets/dockerized-drupal-development-with-lando.md)
+* [Remote/local dev with SFTP, BrowserSync and VSCode](tip-sheets/remote-local-dev-with-sftp-browsersync-and-vscode.md)
 

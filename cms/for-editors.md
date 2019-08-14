@@ -121,15 +121,57 @@ We schedule the lead newsroom story on the front page by checking a box that say
 
 ![](../.gitbook/assets/screenshot-promoted-admin.png)
 
-## TODO: Sharing a preview
+## Sharing a preview
 
-i.e. hashed link
+You can share a link to unpublished content, e.g. to let partner organizations see our draft.
 
-## TODO: Making an article republishable
+Once logged in, you should see a green alert at the top of the unpublished article, on both the article and the edit screen. Right click on 'hashed link' and copy the link address.
 
-## TODO: Adding an external article
+![You should see this alert when viewing an unpublished article.](../.gitbook/assets/screenshot-hashed-link-article.png)
 
-e.g. projects.bettergov.org/...
+![You should also see this alert when viewing an unpublished article&apos;s edit admin.](../.gitbook/assets/screenshot-hashed-link-admin.png)
+
+![Copy the hashed link by right clicking &quot;hashed link&quot; and selecting &quot;Copy link address&quot; \(may be different outside of Chrome\)](../.gitbook/assets/screenshot-hashed-link-admin-right-click.png)
+
+## Making an article republishable
+
+All of our republishable articles are listed at [bettergov.org/republishing](https://www.bettergov.org/republishing/).
+
+See the below screenshots for an example. [You can also view this example in your browser.](https://www.bettergov.org/node/1401909/republish)
+
+![Filling out the republishing fields.](../.gitbook/assets/republishing-admin.png)
+
+![Our final republishing view.](../.gitbook/assets/republishing-view%20%281%29.png)
+
+### Sharing unpublished articles for republishing
+
+You can share a hashed republish link to share unpublished articles with partners.
+
+It would look something like: [https://www.bettergov.org/node/1401966/republish/?hash=xNhpl\_tHmF7RzM1C3rRTntd1PD80Wi9D3plZsZqhxqU](https://www.bettergov.org/node/1401966/republish/?hash=xNhpl_tHmF7RzM1C3rRTntd1PD80Wi9D3plZsZqhxqU) \(not a real link\)
+
+An easy way to get this link is to scroll to the republish widget at the bottom of the article and copy the link location.
+
+![](../.gitbook/assets/screen-shot-2019-08-12-at-5.35.01-pm.png)
+
+## Adding an off-platform article
+
+Example on projects.bettergov.org: [https://projects.bettergov.org/2019/ohare/investigation-billions-broken-promises/](https://projects.bettergov.org/2019/ohare/investigation-billions-broken-promises/)
+
+Example in Drupal: [https://www.bettergov.org/node/1401950/edit/](https://www.bettergov.org/node/1401950/edit/)
+
+01. Create the article in our Drupal CMS. Fill out all of the fields as if it were going to post on bettergov.org so that it can be properly indexed by our site search.
+
+![We&apos;ve laid the article out like normal.](../.gitbook/assets/screenshot_2019-08-12-edit-article-ohares-billions-in-broken-promises-better-government-association.png)
+
+02. Under 'Additional fields', set a 'Custom URL.' Teasers will link to this URL.
+
+![Set a custom URL](../.gitbook/assets/screenshot_2019-08-12_edit_article_ohares_billions_in_broken_promises_better_government_association_.png)
+
+03. Create a URL redirect. Select 'URL redirects' in the bottom tabs. Then click "add URL redirect to this content." Then paste the node URL in the from field and your custom URL in the to field.
+
+![Select &apos;URL redirects&apos; in the bottom tabs. Then click &quot;add URL redirect to this content.&quot;](../.gitbook/assets/vlcsnap-2019-08-12-17h49m28s020.png)
+
+![Paste the node URL in the from field and your custom URL in the to field.](../.gitbook/assets/vlcsnap-2019-08-12-17h49m42s337.png)
 
 ## Social media parameters
 

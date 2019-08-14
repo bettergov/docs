@@ -4,7 +4,7 @@
 
 * \*\*\*\*[**Accounts**](accounts.md)
 * \*\*\*\*[**Product list**](products.md) ****— Listing BGA's deployed sites and tools.
-* **CMS** — General documentation for using, maintaining and developing our Drupal-based CMS at [bettergov.org](https://bettergov.org).
+* \*\*\*\*[**CMS**](cms/) — General documentation for using, maintaining and developing our Drupal-based CMS at [bettergov.org](https://bettergov.org).
   * [For editors](cms/for-editors.md)
   * [For administrators](cms/for-administrators.md)
   * [For developers](cms/for-developers.md)
