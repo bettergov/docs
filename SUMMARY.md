@@ -9,8 +9,7 @@
   * [For administrators](cms/for-administrators.md)
   * [For developers](cms/for-developers.md)
 * [Styles](styles.md)
-* [Project pages](project-pages/README.md)
-  * [Publishing our code](project-pages/publishing-our-code.md)
+* [Project pages](project-pages.md)
 * [Embeddable graphics](embeddable-graphics.md)
 
 ## Tip sheets
