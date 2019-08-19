@@ -170,6 +170,14 @@ We schedule the lead newsroom story on the front page by checking a box that say
 
 ![](../../.gitbook/assets/screenshot-promoted-admin.png)
 
+{% hint style="info" %}
+The lead story spot will populate with the story marked promoted that's either published or updated most recently. Here's an example scenario:
+
+* August 1: Story A published, Story A in lead slot
+* August 2: Story B published, Story B in lead slot
+* August 3: Story A marked updated, Story A in lead slot
+{% endhint %}
+
 ## Hiding a story from the homepage
 
 To hide a story from the homepage, under Promotion settings, check "Sticky at top of lists."
