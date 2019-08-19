@@ -165,7 +165,6 @@ We schedule the lead newsroom story on the front page by checking a box that say
 2. Scroll to the very bottom and click on the promotion settings tab.
 3. Check "Promoted to front page."
 4. If the post is scheduled to publish in the future, it will slide into that lead story slot as soon as it publishes.
-5. Once the post is published, manually untick "Promoted to front page" from whatever story was there previously. [Here's a list](https://www.bettergov.org/promoted-to-front-page) of all stories that are promoted and published. There should always be just one.
 
 ![](../../.gitbook/assets/screenshot-promoted.png)
 
