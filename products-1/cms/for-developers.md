@@ -24,11 +24,11 @@ Pantheon outlines some options for local development in their docs.
 
 I use a homespun combination of SFTP mode, BrowserSync and Visual Studio Code:
 
-{% page-ref page="../tip-sheets/remote-local-dev-with-sftp-browsersync-and-vscode.md" %}
+{% page-ref page="../../tip-sheets/remote-local-dev-with-sftp-browsersync-and-vscode.md" %}
 
 For an alternate local development strategy, check out this tip sheet:
 
-{% page-ref page="../tip-sheets/dockerized-drupal-development-with-lando.md" %}
+{% page-ref page="../../tip-sheets/dockerized-drupal-development-with-lando.md" %}
 
 ## Using Terminus and \`pt\`
 

@@ -3,14 +3,18 @@
 * [BGA web development guide](README.md)
 * [Quick links](quick-links.md)
 * [Accounts](accounts.md)
-* [Product list](products.md)
-* [CMS](cms/README.md)
-  * [For editors](cms/for-editors.md)
-  * [For administrators](cms/for-administrators.md)
-  * [For developers](cms/for-developers.md)
-* [Styles](styles.md)
-* [Project pages](project-pages.md)
-* [Embeddable graphics](embeddable-graphics.md)
+* [Contacts](contacts.md)
+
+## Products <a id="products-1"></a>
+
+* [Product list](products-1/products.md)
+* [CMS](products-1/cms/README.md)
+  * [For editors](products-1/cms/for-editors.md)
+  * [For administrators](products-1/cms/for-administrators.md)
+  * [For developers](products-1/cms/for-developers.md)
+* [Styles](products-1/styles.md)
+* [Project pages](products-1/project-pages.md)
+* [Embeddable graphics](products-1/embeddable-graphics.md)
 
 ## Tip sheets
 

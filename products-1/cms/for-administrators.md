@@ -1,5 +1,16 @@
 # For administrators
 
+## Accessing our test env
+
+When making a significant configuration change, do it in the test env first and take notes along the way. This prevents unpredictable errors or edits in progress from showing up on our live site.
+
+**To access the test env,** go to [http://test-better-government-association.pantheonsite.io/](http://test-better-government-association.pantheonsite.io/). If you're prompted for a password to see the site...
+
+* Username: `orbit`
+* Password: `ab-2012`
+
+When you're comfortable with the changes you've made, replicate them manually in the live site.
+
 ## TODO: The homepage
 
 ## Administering authors
