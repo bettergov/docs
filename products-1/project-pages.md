@@ -1,6 +1,6 @@
 # Project pages
 
-We host big stories and complex applications outside of our CMS — this makes the code easier to manage, and grants us more flexibility than we can achieve inside our CMS.
+We host big stories and complex applications outside of our CMS — this makes the code easier to manage and grants us more flexibility than we can achieve inside our CMS.
 
 For a primer on off-platform pages, Ben Welsh's [First News App tutorial](https://first-news-app.readthedocs.io/en/latest/) is excellent.
 

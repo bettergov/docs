@@ -4,9 +4,9 @@
 
 Submit a support ticket to Orbit Media Studios via [http://support.orbitmedia.com](http://support.orbitmedia.com). They can take care of hosting issues via Pantheon, as well as all other website-related issues.
 
-## Issues with other bettergov.org subdomains, ilvotes.org
+## Issues with Amazon Web Services \(other bettergov.org subdomains, ilvotes.org\)
 
-— pending AWS support contact –
+Send an email to MacHero help \([help@machero.com](mailto:help@machero.com)\).
 
 ## Need to add/remove a bettergov.org subdomain
 
