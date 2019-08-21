@@ -23,4 +23,5 @@
 * \*\*\*\*[**Deploying Django apps**](tip-sheets/deploying-django-apps.md)\*\*\*\*
 * \*\*\*\*[**Dockerized Drupal development with Lando**](tip-sheets/dockerized-drupal-development-with-lando.md)\*\*\*\*
 * \*\*\*\*[**Remote/local dev with SFTP, BrowserSync and VSCode**](tip-sheets/remote-local-dev-with-sftp-browsersync-and-vscode.md)\*\*\*\*
+* [**Hosting a static website using AWS S3 and CloudFront**](tip-sheets/hosting-a-static-website-using-aws-s3-and-cloudfront.md)\*\*\*\*
 
