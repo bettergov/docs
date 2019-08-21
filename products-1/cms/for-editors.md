@@ -303,7 +303,7 @@ You'll see a set of fields for fact-checks only. These mirror fields on PolitiFa
 
 Leave the BGA article editor open when adding the article to PolitiFact — it will be easier to paste text into PolitiFact that's already formatted.
 
-You can access Politifact's CMS from [this link](http://cms.politifact.com/admin/). It's built in Django.
+You can access Politifact's CMS from [http://cms.politifact.com/pf-admin/](http://cms.politifact.com/pf-admin/). It's built in Django.
 
 The majority of fact-checks are going to be statements. You can browse and statements from [this link](http://cms.politifact.com/admin/statements/statement/).
 
