@@ -69,6 +69,10 @@ function pt() {
 }
 ```
 
+{% hint style="info" %}
+This command is also available in the projects local .bashrc. You can access the command by running `source .bashrc` from the project root.
+{% endhint %}
+
 ## Syncing with GitHub
 
 We also keep a version of our website on GitHub at [bettergov/bettergov.org](https://github.com/bettergov/bettergov.org).
@@ -83,6 +87,10 @@ The simplest way to keep this version in sync with Pantheon is to edit`.git/conf
 
 {% hint style="info" %}
 Pantheon has a whole page of documentation on using GitHub's collaborative development tools with Pantheon. Feel free to [read through their docs](https://pantheon.io/docs/guides/collaborative-development/).
+{% endhint %}
+
+{% hint style="info" %}
+If you use the project Makefile for set-up as described in the project's README.md, then git configuration will already be taken care of.
 {% endhint %}
 
 ## Drupal site structure
