@@ -7,6 +7,7 @@ description: >-
 # CMS
 
 * [For editors](for-editors.md)
+
   * [Logging in](for-editors.md#logging-in)
   * [Adding an article](for-editors.md#adding-an-article)
   * [Scheduling an article](for-editors.md#scheduling-an-article)
@@ -24,6 +25,7 @@ description: >-
   * [Social media parameters](for-editors.md#social-media-parameters)
   * [Extra fields](for-editors.md#extra-fields)
   * [PolitiFact articles](for-editors.md#politifact-articles)
+
 * [For administrators](for-administrators.md)
   * [Accessing our test env](for-administrators.md#accessing-our-test-env)
   * [Editing the homepage](for-administrators.md#editing-the-homepage)
@@ -39,6 +41,7 @@ description: >-
     * [Adding](for-administrators.md#adding)
     * [Removing](for-administrators.md#removing)
   * [Administering CMS users](for-administrators.md#administering-cms-users)
+
     * [Adding](for-administrators.md#adding-1)
     * [Blocking](for-administrators.md#blocking)
 * [For developers](for-developers.md)

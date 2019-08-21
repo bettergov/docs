@@ -289,8 +289,9 @@ After that, there's just one additional set of fields to fill out. You can open 
 
 You'll see a set of fields for fact-checks only. These mirror fields on PolitiFact's site:
 
-| Fact check type | Statement or Story. Statements check a single statement and have a ruling. Stories are a bit more nebulous and don't have final rulings. |
+| Field | Description |
 | :--- | :--- |
+| Fact check type | Statement or Story. Statements check a single statement and have a ruling. Stories are a bit more nebulous and don't have final rulings. |
 | Quote | The statement being fact-checked. These should be surrounded with quotes where applicable. |
 | Person | Who said it. Use titles if relevant \(e.g. Gov. Bruce Rauner\) |
 | Context | Where the speaker said it \(e.g. On Twitter\) |
@@ -344,7 +345,7 @@ A few other quirks of PolitiFact's setup:
 
 * **Adding speakers:** If fact-checking someone who hasn't been fact-checked before, you'll need to add the person to the PolitiFact CMS. You can view person at [this link](http://cms.politifact.com/admin/people/person/). The set-up is self-explanatory here, just note these couple of things:
   * It makes you select a political party. If you don't want to, select 'None.' Selecting 'None' means a political party won't show up for that speaker.
-  * **Always add a photo.** The photo should be tightly cropped to the person's face, 80x80. You can [crop pictures in Preview](http://osxdaily.com/2014/06/16/crop-image-mac-preview/). Hold shift down while making your selection and the selection will be a square.
+  * **Always add a photo.** The photo should be tightly cropped to the person's face, 80x80. You can [crop pictures in Preview](http://osxdaily.com/2014/06/16/crop-image-mac-preview/) or a website like [resizeimage.net](https://resizeimage.net/). Hold shift down while making your selection and the selection will be a square.
 
 #### Share the Facts
 
